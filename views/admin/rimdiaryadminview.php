@@ -10,7 +10,7 @@
 		<?php endforeach ?>
 		</div>
 
-		<h2>Roll Up The Rim...</h2>
+		<h2><?php _e( 'Roll Up The Rim', 'rim-diary' ) ?>...</h2>
 		<form method="post">
 			<?php foreach( RimDiary::getPrizes() as $tag => $prize ) : ?>
 				<div class="prize">
@@ -18,8 +18,14 @@
 					<button class="button button-primary" type="submit" name="rim-rolled" value="<?php echo $tag ?>"><?php echo $prize ?></button>
 				</div>
 			<?php endforeach ?>
-			<p><button class="button button-secondary delete" type="submit" name="rim-rolled" value="<?php echo 'reset-rims' ?>">Reset Rims</button></p>
+			<p><button class="button button-secondary delete" type="submit" name="rim-rolled" value="<?php echo 'reset-rims' ?>"><?php _e( 'Reset Rims', 'rim-diary' ) ?></button></p>
 			<?php wp_nonce_field( 'log-rim-diary', 'log-rim-diary-nonce' ) ?>
 		</form>
+
+		<p class="disclaimer">
+		<?php
+		_e( 'I do not own the rights to any of the trademarks and imagery and nor am I affiliated in any way with Tim Hortons or Roll Up The Rim competition. The Rim Diary is strictly for fun and pleasure and will neither dispense nor claim prizes. You still need to purchase competition cups from and claim winnings through Tim Hortons.', 'rim-diary' )
+		?>
+		</p>
 	</div>
 </div>

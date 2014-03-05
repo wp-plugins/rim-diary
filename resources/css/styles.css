@@ -24,6 +24,10 @@
 	font-size: .825em;
 }
 
+#rim-diary-admin {
+	max-width: 1000px;
+}
+
 #rim-diary-admin .winnings {
 	margin: 2em 0 2em;
 	font-size: 1.5em;
@@ -45,4 +49,13 @@
 #rim-diary-admin .prize-image {
 	display: block;
 	margin-bottom: .5em;
+}
+
+#rim-diary-admin .disclaimer {
+	margin-top: 2em;
+	font-size: .825em;
+}
+
+#rim-diary-admin .disclaimer:before {
+	content: '*';
 }

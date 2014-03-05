@@ -4,7 +4,7 @@ Donate link: http://jonathanweatherhead.com
 Tags: Roll Up The Rim To Win, coffee, Tim Hortons
 Requires at least: 3.5.0
 Tested up to: 3.8.1
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,11 @@ Track your Tim Hortons rim rolls and share your winnings with the world.
 
 == Description ==
 
-Brag about your epic winning streak or keep tabs on the great misfortune of receiving Please Play again time and again. Either way, bring this great Canadian seasonal game to the blogosphere.
+Brag about your epic winning streak or keep tabs on the great misfortune of receiving Please Play again time and again.
+Either way, bring this great Canadian seasonal game to the blogosphere and get your bragging rights on.
+
+I do not own the rights to any of the trademarks and imagery and nor am I affiliated in any way with Tim Hortons or Roll Up The Rim competition.
+The Rim Diary is strictly for fun and pleasure and will neither dispense nor claim prizes. You still need to purchase competition cups from and claim winnings through Tim Hortons.
 
 == Installation ==
 
@@ -26,6 +30,10 @@ Brag about your epic winning streak or keep tabs on the great misfortune of rece
 2. Show the world how you've fared in this great Canadian seasonal game.
 
 == Changelog ==
+
+= 1.0.3 =
+* Added i18n wrappers and French translation.
+* Added title support to Rim Diary widget.
 
 = 1.0.1 =
 * First stable version.

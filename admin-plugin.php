@@ -6,8 +6,6 @@
 // Register admin functionality.
 add_action( 'admin_menu', array( 'RimDiaryAdmin', 'admin_menu' ) );
 add_action( 'admin_init', array( 'RimDiaryAdmin', 'admin_init' ) );
-add_action( 'admin_enqueue_scripts', array( 'RimDiary', 'wp_enqueue_scripts' ) );
-add_action( 'admin_enqueue_scripts', array( 'RimDiaryAdmin', 'admin_print_scripts' ) );
 
 /**
  * Sets up custom options administrative panel and menu.
@@ -21,6 +19,7 @@ class RimDiaryAdmin {
 
 	// To be hooked into wp_enqueue_scripts or another appropriate hook suitable for enqueuing scripts.
 	static function admin_print_scripts( $context ) {
+		wp_enqueue_style( 'rim-diary-styles', plugins_url( '/resources/css/styles.css', __FILE__ ) );
 		//wp_enqueue_script( 'rim-diary-admin-scripts', plugins_url( '/resources/js/admin-scripts.js', __FILE__ ) );
 	}
 
