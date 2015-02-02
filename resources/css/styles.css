@@ -36,6 +36,8 @@
 
 #rim-diary-admin .statistic {
 	margin-right: 32px;
+    padding: .5em;
+    white-space: nowrap;
 }
 
 #rim-diary-admin .prize {
@@ -49,6 +51,7 @@
 #rim-diary-admin .prize-image {
 	display: block;
 	margin-bottom: .5em;
+    max-height: 128px;
 }
 
 #rim-diary-admin .disclaimer {

@@ -10,7 +10,7 @@ add_action( 'widgets_init', array( 'RimDiaryWidget', 'register' ) );
 add_action( 'wp_enqueue_scripts', array( 'RimDiary', 'wp_enqueue_scripts' ) );
 
 class RimDiary {
-	const version = '1.0.1';
+	const version = '1.0.4';
 	const slug = 'rim-diary';
 
 	private static $config = null;
@@ -40,7 +40,6 @@ class RimDiary {
 
 	static function wp_enqueue_scripts() {
 		wp_enqueue_style( 'rim-diary-styles', plugins_url( '/resources/css/styles.css', __FILE__ ) );
-		//wp_enqueue_script( 'rim-diary-scripts', plugins_url( '/resources/js/scripts.js', __FILE__ ), array( 'jQuery' ) );
 	}
 
 	static function getPrizes() {
@@ -50,8 +49,9 @@ class RimDiary {
 				'donut' => __( 'Free Donut', 'rim-diary' ),
 				'play-again' => __( 'Please Play Again', 'rim-diary' ),
 				'tim-card' => __( '$100 Tim card', 'rim-diary' ),
+                'lg-tv' => __( 'LG 55" Curved OLED Smart TV', 'rim-diary' ),
 				'prepaid-visa' => __( '5k Prepaid Visa', 'rim-diary' ),
-				'corolla' => __( '2014 Toyota Corolla S', 'rim-diary' )
+				'toyota-camry' => __( '2015 Toyota Camry', 'rim-diary' )
 			);
 
 		return self::$prizes;
