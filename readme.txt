@@ -3,7 +3,7 @@ Contributors: jweathe
 Donate link: http://jonathanweatherhead.com
 Tags: Roll Up The Rim To Win, coffee, Tim Hortons
 Requires at least: 3.5.0
-Tested up to: 3.8.1
+Tested up to: 4.1.0
 Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -31,8 +31,8 @@ The Rim Diary is strictly for fun and pleasure and will neither dispense nor cla
 
 == Changelog ==
 
-= 1.0.4 +
-* Updated for 2014 Roll Up the Rim
+= 1.0.4 =
+* Updated for 2015 Roll Up the Rim
 
 = 1.0.3 =
 * Added i18n wrappers and French translation.
