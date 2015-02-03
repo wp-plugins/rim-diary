@@ -3,9 +3,9 @@
 Plugin Name: Tim Hortons Rim Diary
 Plugin URI: http://portfolio.planetjon.ca/projects/rim-diary/
 Description: Track your Tim Hortons rim rolls and share your winnings with the world.
-Version: 1.0.3
+Version: 1.0.4
 Requires at least: 3.5.0
-Tested up to: 3.8.1
+Tested up to: 4.1.0
 Author: Jonathan Weatherhead
 Author URI: http://jonathanweatherhead.com
 Text Domain: rim-diary
